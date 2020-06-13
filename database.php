@@ -1,0 +1,58 @@
+<?php $database = [
+	['login' => 'admin', 
+	 'password' => 'ya_admin',
+	 'name' => 'Гена',
+	 'surname' => 'Бурчік',
+	 'role' => 'admin',
+	 'lang' => 'ua'],
+
+	['login' => 'manager',
+	 'password' => 'ya_manager',
+	 'name' => 'Frosya',
+	 'surname' => 'Babkina',
+	 'role' => 'manager',
+	 'lang' => ''],
+
+	['login' => 'client',
+	 'password' => 'ya_client',
+	 'name' => 'Альбибек',
+	 'surname' => 'Узбек',
+	 'role' => 'client',
+	 'lang' => 'ru'],
+
+	['login' => 'Vasisualiy',
+	 'password' => '12345',
+	 'name'=>'Василий',
+	 'surname'=>'Лоханкин',
+	 'role'=>'client',
+	 'lang' => ''],
+
+	['login' => 'Afanasiy',
+	 'password' => '54321',
+	 'name'=>'Afanasiy',
+	 'surname'=>'Zuckerberg',
+	 'role'=>'client',
+	 'lang' => 'en'],
+
+	['login' => 'Petro',
+	 'password' => 'EkUC42nzmu',
+	 'name'=>'Петро',
+	 'surname'=>'Інкогніто',
+	 'role'=>'manager',
+	 'lang' => 'ua'],
+
+	['login' => 'Pedrolus',
+	'password' => 'Cogito_ergo_sum',
+	 'name'=>'Pedro', 
+	 'surname'=>'Milanov',
+	 'role'=>'admin',
+	 'lang' => 'it'],
+
+	['login' =>'Sasha',
+	 'password' => 'Ignorantia',
+	 'name'=>'Alexandro',
+	 'surname'=>'Alexsandritto',
+	 'role'=>'client',
+	 'lang' => ''],
+];
+?>
