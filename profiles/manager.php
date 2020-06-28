@@ -31,28 +31,5 @@ if ($_SESSION['role']=='client')
 $lang = $_SESSION['lang'];
 $manager = new manager($_SESSION['name'], $_SESSION['surname'], $_SESSION['role'], $_SESSION['lang']);
 
-if(!empty($lang))
-{
-	if($lang == 'en')
-	{
-		$manager->hello();
-	}
-	if($lang == 'ru')
-	{
-		$manager->privet();
-	}
-	if($lang == 'ua')
-	{
-		$manager->vitaiu();
-	}
-	if($lang == 'it')
-	{
-		$manager->salve();
-	}
-}
-else
-{
-	echo "Choose the language";
-}
-require "../change_language.html"
+require "../change_language.php";
 ?>
