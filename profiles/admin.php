@@ -31,28 +31,5 @@ if(!empty($_POST["select_lang"]))
 $lang = $_SESSION['lang'];
 $admin = new admin ($_SESSION['name'], $_SESSION['surname'], $_SESSION['role'], $_SESSION['lang']);
 
-if(!empty($lang))
-{
-	if($lang == 'en')
-	{
-		$admin->hello();
-	}
-	if($lang == 'ru')
-	{
-		$admin->privet();
-	}
-	if($lang == 'ua')
-	{
-		$admin->vitaiu();
-	}
-	if($lang == 'it')
-	{
-		$admin->salve();
-	}
-}
-else
-{
-	echo "Choose the language";
-}
-require "../change_language.html"
+require "../change_language.php";
 ?>
