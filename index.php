@@ -11,7 +11,7 @@ if(!empty($_SESSION['name']))
 <head>
 	<meta charset="UTF-8">
 	<title>Какой-то непонятный сайт</title>
-	<link rel="stylesheet" type="text/css" href="css/styl.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	<div class="wrapper">
@@ -23,7 +23,7 @@ if(!empty($_SESSION['name']))
 				<input class="loginForm_inp" name="login"  type = 'text'> <br>
 				<p>ПАРОЛЬ</p>
 				<input class="loginForm_inp" name="password"  type = 'password'> <br>
-				<input type='submit' name="submit" value="LOGIN" class="loginForm_btn">
+				<input type='submit' name="submit" value="LOGIN" class="button loginForm_btn">
 			</form>
 				<?php
 				if (!empty($_SESSION['message']))
