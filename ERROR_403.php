@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>ERROR 403</title>
-	<link rel="stylesheet" href="css/styl.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<div class="error_403">
