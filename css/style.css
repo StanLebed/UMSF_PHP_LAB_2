@@ -20,12 +20,13 @@ h1 {
 
 .loginForm {
 	margin: 60px auto;
-	border: 1px solid grey;
+	border: 5px solid #ca8afc;
+	border-radius: 20px;
 	color: #ca8afc;
 	width: 300px;
-	height: 200px;
+	height: 220px;
 	background-color: #fffffc;
-	padding: 10px 20px;
+	padding: 10px 15px;
 	box-sizing: border-box;
 }
 
@@ -44,38 +45,38 @@ h1 {
 	border-bottom: 2px solid #e3e3;
 }
 
+.button{
+	width: 100px;
+	height: 50px;
+	background-color: #ca8afc;
+	color: #ffffff;
+	border: 2px solid #ca8afc;
+	border-radius: 5px;
+	outline: none;
+	cursor: pointer;
+}
+
 .loginForm_btn {
 	width: 265px;
 	height: 25px;
 	margin-top: 5px;
-	background-color: #ca8afc;
-	color: #ffffff;
-	border: 1px solid gray;
-	border-radius: 5px;
-	outline: none;
-	cursor: pointer;
 }
 
 .msg {
 	padding: 10px;
 	margin-top: 30px !important; 
 	border: 2px solid #ca8afc;
-	border-radius: 3px;
+	background-color: rgba(255, 0, 0, 0.45);
+	color: white;
+	border-radius: 20px;
 	text-align: center;
 	font-weight: bold;
 }
 
 .go_back {
-	cursor: pointer;
-	width: 100px;
-	height: 50px;
 	position: absolute;
 	top: 50px;
-	right: 100px;
-	background-color: #ca8afc;
-	color: #ffffff;
-	border: 1px solid gray;
-	border-radius: 5px;
+	left: 50px;
 }
 
 .error_403_img {
@@ -97,10 +98,24 @@ h1 {
 	width: 100px;
 	height: 25px;
 	margin-top: 0px;
-	background-color: #ca8afc;
-	color: #ffffff;
-	border: 1px solid gray;
-	border-radius: 5px;
-	outline: none;
-	cursor: pointer;
+}
+
+.switch_cabinet_btn{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+
+.exit {
+	position: absolute;
+	top: 50px;
+	right: 100px;
+}
+
+.l200{
+	left: 200px;
+}
+
+.d_none{
+	display: none;
 }
