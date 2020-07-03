@@ -74,9 +74,10 @@ h1 {
 }
 
 .go_back {
+	width: 60px;
 	position: absolute;
 	top: 50px;
-	left: 50px;
+	left: 70px;
 }
 
 .error_403_img {
