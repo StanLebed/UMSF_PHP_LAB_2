@@ -1,10 +1,17 @@
 <html>
 <body>
 	<head>
-	<meta charset="UTF-8">
-	<title>ADMIN</title>
-</head>
+		<meta charset="UTF-8">
+		<title>ADMIN</title>
+		<link rel="stylesheet" href="/css/style.css">
+	</head>
 	<h1>Кабинет администратора</h1>
+	<form name = "switch_cabinet" action = "manager.php" method = "post">
+		<button class="button switch_cabinet_btn">Manager</button>
+	</form>
+	<form name = "switch_cabinet" action = "client.php" method = "post">
+		<button class="button switch_cabinet_btn l200">Client</button>
+	</form>
 </body>
 </html>
 
@@ -27,9 +34,6 @@ if(!empty($_POST["select_lang"]))
 {
 	$_SESSION['lang'] = $_POST['lang'];
 }
-
-$lang = $_SESSION['lang'];
-$admin = new admin ($_SESSION['name'], $_SESSION['surname'], $_SESSION['role'], $_SESSION['lang']);
 
 require "../change_language.php";
 ?>
