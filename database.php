@@ -53,6 +53,6 @@
 	 'name'=>'Alexandro',
 	 'surname'=>'Alexsandritto',
 	 'role'=>'client',
-	 'lang' => ''],
+	 'lang' => 'it'],
 ];
 ?>
